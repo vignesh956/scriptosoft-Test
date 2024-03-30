@@ -1,0 +1,209 @@
+// .backgroundinfo{
+//         // background: #010A0F !important;
+//         // height: auto;
+//         // // padding: 0 16px;
+//         // max-height: 1000px;
+//         // padding-bottom: 48px;
+//         // min-height: 667px;
+
+
+
+//         background: #010A0F !important;
+//         height: auto;
+//         padding-bottom: 48px;
+//         min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+//     }
+
+// .header {
+//     height: 3.875rem;
+//     background: #001D2B;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     ion-label{
+//         font-size: 20px;
+//     font-weight: 600;
+//     line-height: 23.44px;
+//     text-align: left;
+//     color: #FFFFFF;
+//     }
+  
+//     .header-title {
+//       font-family: Roboto;
+//       font-size: 20px;
+//       font-weight: 600;
+//       color: #FFFFFF;
+//     }
+//   }
+  
+//   .profile-section {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-top: 25px;
+  
+//     ion-avatar {
+//       width: 80px;
+//       height: 80px;
+//       border-radius: 10px !important;
+//       overflow: hidden;
+//     }
+  
+//     .name {
+//         padding-top: 15px;
+//       font-family: Poppins;
+//       font-size: 20px;
+//       font-weight: 500;
+//       line-height: 30px;
+//       color: #FFFFFF;
+//       text-align: center;
+//     }
+//   }
+  
+//   .cardsprofile {
+//     margin-top: 16px;
+//     background: #001B28;
+//     height: 50px;
+//     ion-card-header{
+//         padding: 10px 20px;
+//     }
+//     ion-card-title{
+//         justify-content: space-between;
+//             display: flex;
+//             ion-icon{
+//                 color: #FFFFFF;
+//             }
+//     }
+//     .cardinfo {
+//       font-family: Roboto;
+//       font-size: 16px;
+//       font-weight: 500;
+//       color: #FFFFFF;
+//       text-align: left;
+      
+ 
+
+//     }
+//   }
+  
+//   .logout {
+//     display: flex;
+//     justify-content: flex-end;;
+//     // margin-top: 16px;
+//     margin-top: auto;
+  
+//     ion-button {
+//       width: 100%;
+//       max-width: 360px;
+//       height: 50px;
+//       border-radius: 10px;
+//     }
+//   }
+//   @media screen and (max-width: 767px) {
+//     /* For screens smaller than 768px (typical mobile screens) */
+//     .backgroundinfo {
+//         min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+.backgroundinfo {
+  background: #010A0F !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 3.875rem;
+  background: #001D2B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  ion-label {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 23.44px;
+      text-align: left;
+      color: #FFFFFF;
+  }
+
+  .header-title {
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 600;
+      color: #FFFFFF;
+  }
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+
+  ion-avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 10px !important;
+      overflow: hidden;
+  }
+
+  .name {
+      padding-top: 15px;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      color: #FFFFFF;
+      text-align: center;
+  }
+}
+
+.cardsprofile {
+  margin-top: 16px;
+  background: #001B28;
+  height: 50px;
+  ion-card-header {
+      padding: 10px 20px;
+  }
+  ion-card-title {
+      justify-content: space-between;
+      display: flex;
+      ion-icon {
+          color: #FFFFFF;
+      }
+  }
+  .cardinfo {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      color: #FFFFFF;
+      text-align: left;
+  }
+}
+
+.logout {
+  margin-top: auto;
+  padding: 16px;
+  align-self: auto;
+}
+
+ion-button {
+  width: 100%;
+  max-width: 360px;
+  height: 50px;
+  border-radius: 10px;
+}

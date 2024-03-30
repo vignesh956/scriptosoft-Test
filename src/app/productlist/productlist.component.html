@@ -1,0 +1,19 @@
+<ion-grid>
+  <ion-row>
+    <ion-col *ngFor="let item of productInfo" size-lg="2" size-md="3" size-sm="6" size-xs="12" size-xl="2">
+
+      <ion-card (click)="fullView(item)" style="cursor: pointer;">
+        <img alt="Silhouette of mountains" src="../../assets/profile.jpg" />
+        <ion-card-header>
+          <ion-card-title>{{item.name}}</ion-card-title>
+          <ion-card-subtitle>{{item.village}}</ion-card-subtitle>
+        </ion-card-header>
+      
+        <ion-card-content>
+          Here's a small text description for the card content. Nothing more, nothing less.
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+   
+  </ion-row>
+</ion-grid>

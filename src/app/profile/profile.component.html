@@ -1,0 +1,85 @@
+<!-- <ion-content>
+  <div class="backgroundinfo">
+    <div class="header">
+      <ion-label class="header-title">Profile</ion-label>
+    </div>
+    <div >
+      <div class="profile-section">
+        <div class="profileImg">
+          <ion-avatar>
+            <ion-img src="../../assets/vignesh.jpg"></ion-img>
+          </ion-avatar>
+        </div>
+        <ion-label class="name">Vignesh Reddy</ion-label>
+      </div>
+      <ion-card *ngFor="let item of ProfileCategorylist" class="cardsprofile">
+        <ion-card-header>
+          <ion-card-title>
+            <ion-label class="cardinfo">{{item.name}}</ion-label>
+            <ion-icon name="arrow-forward"></ion-icon>
+          </ion-card-title>
+        </ion-card-header>
+      </ion-card>
+      <div class="logout">
+        <ion-button>Logout</ion-button>
+      </div>
+    </div>
+  </div>
+ 
+</ion-content> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ion-content>
+  <div class="backgroundinfo">
+    <div class="header">
+      <ion-label class="header-title">Profile</ion-label>
+    </div>
+    <div class="content-wrapper">
+      <div class="profile-section">
+        <div class="profileImg">
+          <ion-avatar>
+            <ion-img src="../../assets/vignesh.jpg"></ion-img>
+          </ion-avatar>
+        </div>
+        <ion-label class="name">Vignesh Reddy</ion-label>
+      </div>
+      <ion-card *ngFor="let item of ProfileCategorylist" class="cardsprofile">
+        <ion-card-header>
+          <ion-card-title>
+            <ion-label class="cardinfo">{{item.name}}</ion-label>
+            <ion-icon name="arrow-forward"></ion-icon>
+          </ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </div>
+    <div class="logout">
+      <ion-button (click)="alert()">Logout</ion-button>
+    </div>
+  </div>
+</ion-content>
